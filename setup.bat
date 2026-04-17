@@ -1,5 +1,5 @@
-#!/bin/bash
+@echo off
 
-pip3 install --upgrade pip
-pip3 install -r requirements.txt
-pip3 install -e .
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
